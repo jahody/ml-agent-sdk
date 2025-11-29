@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python test_simple.py:*)",
+      "Bash(pip install:*)",
+      "Bash(python titanic_agent.py:*)",
+      "Bash(git init:*)",
+      "Bash(gh repo create:*)",
+      "Bash(where:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
