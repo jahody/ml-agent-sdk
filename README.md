@@ -78,6 +78,3 @@ Example execution:
 - [Claude Agent SDK Documentation](https://platform.claude.com/docs/en/agent-sdk/python)
 - [Titanic Competition (Kaggle)](https://www.kaggle.com/c/titanic)
 
-## License
-
-MIT
