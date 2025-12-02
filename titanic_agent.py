@@ -3,7 +3,7 @@ Titanic ML Agent - Simplified version
 Complete ML pipeline: data loading → preprocessing → training → prediction
 """
 
-from ml_tools import TitanicMLTools
+from tools.titanic_tools import TitanicMLTools
 import json
 
 

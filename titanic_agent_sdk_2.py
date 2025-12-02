@@ -5,7 +5,7 @@ Minimal implementation with tool-based approach
 
 from claude_agent_sdk import tool, create_sdk_mcp_server, ClaudeAgentOptions, ClaudeSDKClient
 import os
-from ml_tools import TitanicMLTools
+from tools.titanic_tools import TitanicMLTools
 
 
 # Initialize ML tools globally

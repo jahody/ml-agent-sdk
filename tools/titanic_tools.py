@@ -136,7 +136,7 @@ class TitanicMLTools:
                     df['Title'] = df['Title'].replace('Ms', 'Miss')
                     df['Title'] = df['Title'].replace('Mme', 'Mrs')
                     df['Title'] = df['Title'].map(title_mapping)
-                    df['Title'].fillna(0, inplace=True)
+                    df['Title'] = df['Title'].fillna(0)
 
                 operations_applied.append("extracted_title")
 
